@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy Store</title>
+    <link rel="stylesheet" href="comfy-store.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Comfy Store</h1>
+        <div class="cart">
+            <p>Cart: <span id="cart-count">0</span> items</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product">
+                <h2>Cozy Blanket</h2>
+                <p>$25</p>
+                <button class="add-to-cart" data-price="25">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <h2>Soft Pillow</h2>
+                <p>$15</p>
+                <button class="add-to-cart" data-price="15">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <h2>Warm Slippers</h2>
+                <p>$20</p>
+                <button class="add-to-cart" data-price="20">Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="cart-info">
+            <h2>Cart Summary</h2>
+            <p>Total Items: <span id="total-items">0</span></p>
+            <p>Total Price: $<span id="total-price">0</span></p>
+        </section>
+    </main>
+
+    <script src="comfy-store.js"></script>
+</body>
+</html>
